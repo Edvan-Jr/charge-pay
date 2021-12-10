@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Nunito:wght@400;600;700&display=swap');
+
+.container__details main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    width: 95%;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    color: #3F3F55;
+    font-family: 'Nunito', sans-serif;
+}
+
+button {
+    all: unset;
+}
+
+.client__name {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+}

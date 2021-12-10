@@ -1,0 +1,50 @@
+.table__body {
+    display: flex;
+    color: #6E6E85;
+}
+
+.body__field {
+    display: flex;
+    align-items: center;
+
+    min-width: 10vw;
+    margin-right: 50px;
+}
+
+.field--status, .field--actions {
+    font-weight: 600;
+}
+
+.field--description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 20vw;
+}
+
+.btn__edit-cobranca, .btn__delete-cobranca {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 10px;
+}
+
+.btn__delete-cobranca {
+    color: #AE1100;
+}
+
+.field--actions {
+    display: flex;
+    gap: 2vw;
+}
+
+.field--actions img {
+    max-width: 20px;
+}
+
+/* Status */
+
+.vencida {
+    color: #971D1D;
+}
